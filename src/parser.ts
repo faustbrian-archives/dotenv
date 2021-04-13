@@ -1,4 +1,9 @@
-import { NEWLINE, NEWLINES_MATCH, RE_INI_KEY_VAL, RE_NEWLINES } from "./constants";
+import {
+	NEWLINE,
+	NEWLINES_MATCH,
+	RE_INI_KEY_VAL,
+	RE_NEWLINES,
+} from "./constants";
 import { Variables } from "./types";
 
 const NESTED = /\${([a-zA-Z0-9_.]+)}/g;

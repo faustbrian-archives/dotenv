@@ -61,7 +61,9 @@ export class Validator {
 			this.applyRule((variable) => this.#schema[variable].required());
 		}
 
-		const { value, error } = Joi.object(this.#schema).validate(this.#repository.all(), { allowUnknown: true });
+		const { value, error } = Joi.object(
+			this.#schema
+		).validate(this.#repository.all(), { allowUnknown: true });
 
 		if (error) {
 			throw new Error(error);
