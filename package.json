@@ -22,7 +22,7 @@
 		"@hapi/joi": "^17.1.1"
 	},
 	"devDependencies": {
-		"@konceiver/tease": "^2.0.0"
+		"@konceiver/tease": "^2.0.1"
 	},
 	"types": "dist/index"
 }
